@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impressum & Datenschutz – Autoclicker</title>
+<link rel="icon" href="autoclicker.svg" type="image/svg+xml">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f8fb; --line: #dde3ec; --text: #1b2433; --muted: #5b6678; --heading: #0b1220;
+    --accent: #1d6fd8; --accent-strong: #1559b0; --accent-soft: #e4eefc;
+    --sans: system-ui, -apple-system, "Segoe UI", "Noto Sans", Cantarell, Ubuntu, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0d121a; --line: #263142; --text: #dbe2ec; --muted: #94a0b2; --heading: #ffffff;
+      --accent: #4c94f0; --accent-strong: #79b0f6; --accent-soft: #15253d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 var(--sans); }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:hover { color: var(--accent-strong); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+
+  .nav { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .nav .wrap { display: flex; align-items: center; height: 56px; max-width: 1120px; }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--heading); text-decoration: none; font-weight: 650; }
+  .brand img { width: 28px; height: 28px; }
+  .back { margin-left: auto; color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 8px; font-size: 15px; }
+  .back:hover, .back:focus-visible { color: var(--heading); background: var(--accent-soft); outline: none; }
+
+  main { padding: 56px 0 72px; }
+  h1 { color: var(--heading); font-size: 32px; letter-spacing: -0.02em; margin: 0 0 20px; }
+  h2 { color: var(--heading); font-size: 18px; margin: 28px 0 4px; }
+  address { font-style: normal; }
+  p { margin: 0; }
+  .text p { margin: 0 0 12px; color: var(--muted); }
+  section + section { margin-top: 56px; padding-top: 56px; border-top: 1px solid var(--line); }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="autoclicker.svg" alt="" width="28" height="28">Autoclicker</a>
+    <a class="back" href="./" lang="en">← Back to the website</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <section id="impressum">
+    <h1>Impressum</h1>
+    <h2>Angaben gemäß § 5 DDG</h2>
+    <address>
+      Dennis Lehmann<br>
+      c/o Autorenglück #92960<br>
+      Albert-Einstein-Straße 47<br>
+      02977 Hoyerswerda
+    </address>
+
+    <h2>Kontakt</h2>
+    <p>Fax: +49 201 85974557</p>
+    <p>E-Mail: <a href="mailto:mail@dennis-lehmann.de">mail@dennis-lehmann.de</a></p>
+    </section>
+
+    <section id="datenschutz" class="text">
+    <h1>Datenschutz</h1>
+
+    <h2>Verantwortlicher</h2>
+    <p>Verantwortlich für diese Website ist Dennis Lehmann (Anschrift und Kontakt siehe
+      <a href="#impressum">Impressum</a>). Fragen zum Datenschutz richten Sie bitte an
+      <a href="mailto:mail@dennis-lehmann.de">mail@dennis-lehmann.de</a>.</p>
+
+    <h2>Hosting bei GitHub Pages</h2>
+    <p>Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street,
+      San Francisco, CA 94107, USA. Beim Aufruf der Seiten verarbeitet GitHub technisch notwendige Zugriffsdaten,
+      insbesondere Ihre IP-Adresse, und speichert sie nach eigenen Angaben aus Sicherheitsgründen in Server-Logs.
+      Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; das berechtigte Interesse liegt in einer sicheren und stabilen
+      Bereitstellung der Website.</p>
+    <p>Dabei können Daten in die USA übermittelt werden. GitHub ist unter dem EU-US Data Privacy Framework
+      zertifiziert, für das die EU-Kommission einen Angemessenheitsbeschluss (Art. 45 DSGVO) erlassen hat. Näheres
+      steht im <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub
+      General Privacy Statement</a>.</p>
+
+    <h2>Keine Cookies, kein Tracking</h2>
+    <p>Diese Website setzt keine Cookies, verwendet keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von
+      fremden Servern (etwa Schriften oder Skripte). Ich selbst erhebe oder speichere keine personenbezogenen Daten.</p>
+
+    <h2>Links zu GitHub</h2>
+    <p>Die Links zum Quellcode, zu Fehlerberichten und zu Downloads führen zu github.com. Dort gelten die
+      Datenschutzbestimmungen von GitHub.</p>
+
+    <h2>Kontakt per E-Mail</h2>
+    <p>Wenn Sie mir eine E-Mail schreiben, verarbeite ich Ihre Angaben nur, um Ihre Anfrage zu beantworten
+      (Art. 6 Abs. 1 lit. f DSGVO), und lösche sie, sobald sie dafür nicht mehr benötigt werden.</p>
+
+    <h2>Ihre Rechte</h2>
+    <p>Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung
+      der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch gegen die Verarbeitung (Art. 21).
+      Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO).</p>
+    </section>
+  </div>
+</main>
+
+</body>
+</html>
